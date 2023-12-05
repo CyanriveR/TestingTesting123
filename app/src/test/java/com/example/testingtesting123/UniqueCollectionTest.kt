@@ -41,4 +41,7 @@ class UniqueCollectionTest {
 
         assert(originalSize == 2 && newSize == 0) {"Items not cleared"}
     }
+    fun remove(){
+
+    }
 }

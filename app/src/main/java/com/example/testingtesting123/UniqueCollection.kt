@@ -8,6 +8,7 @@ class UniqueCollection {
             collection.add(item)
     }
 
+
     fun get (position: Int) = collection[position]
 
     fun remove (item: Item){
@@ -15,7 +16,9 @@ class UniqueCollection {
     }
 
     fun clear () {
-
+        while(collection.size!=0){
+            collection.remove(collection[collection.size -1])
+        }
     }
 
     fun size() = collection.size
